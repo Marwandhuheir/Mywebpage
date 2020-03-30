@@ -1,0 +1,111 @@
+/* global */
+*{
+        margin: 0;
+        padding: 0;
+        font-family: arial tohama fantasy;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+}
+.clearfix{
+        clear: both;
+}
+ul{
+        
+        list-style: none;
+}
+/* end global*/
+/* start header*/
+.header{
+        background-color:gray;
+        text-align: center;
+        color:#FFF;
+        font-size: 24pt;
+        padding: 25px;
+       
+}
+/* end header*/
+/* Start article */
+article section .img{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        margin-left: 10px;
+        padding: 10px;
+        float: left;
+}
+article section table{
+        text-align: center;
+        border-bottom:1px solid blue;
+        border-top:1px solid blue;
+}
+article section table td,article section table tr{
+        border:1px solid blue;
+        padding: 10px;
+        
+}
+.info div{
+        width: 650px;
+        padding: 30px;
+        height: 200px;
+        float: right;
+}
+.info div p{
+        font-weight: bold;
+        padding: 5px;
+        
+}
+.info div p span,article section p span{
+        font-weight: bolder;
+        
+        font-size: 14pt;
+        color:red;
+}
+.poster{
+        width: 70%;
+        float: left;
+}
+.poster article{
+        background-color: #f6f6f6;
+        border:1px solid #ccc;
+        margin: 10px;
+}
+.poster article header{
+        background-color: #E2E2E2;
+        padding: 10px;
+}
+ .poster article section{
+        padding: 10px;
+}
+/* End article */
+/* start sidebar*/
+aside{
+        float: right;
+        width: 30%;
+}
+aside section{
+        background-color: #EEE;
+        border: 1px solid #ddd;
+        margin: 20px;
+        padding: 10px;
+}
+aside section h4{
+        background-color: #d1d1d1;
+        border: 1px solid #ccc;
+        padding: 10px;
+}
+aside section ul {
+        padding: 10px;
+}
+aside section ul li{
+        line-height: 1.6;
+}
+/* end sidbar*/
+/* Start footer*/
+footer{
+         background-color:gray;
+        text-align: center;
+        color:#FFF;
+        padding: 10px;
+}
+/* End footer*/
